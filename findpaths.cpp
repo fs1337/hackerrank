@@ -18,6 +18,6 @@ void pathtoNode(BTNode* root,int* path,int pos, int a)
 }
 
 
-The caller function has: 
+//The caller function has: 
 int *path = new int[MAX_HEIGHT];
 pathtoNode(root,path,0,12);

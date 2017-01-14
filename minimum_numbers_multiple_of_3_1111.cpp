@@ -3,6 +3,22 @@ for eg., 3 and 13 have amultiples like 111 and 111111 respectively. Given such
 a no. , find the smallest such multiple of that number. The multiple can 
 exceed the range of int, long. You cannot use any complex data structure.*/
 
+/*
+example1
+1%3       = 1
+11%3      = (10 + 1)%3 = (1%3)*10 + 1
+111%3     = (11*10 + 1)%3 = (11%3)*10 + 1
+
+example2
+1%13       = 1
+11%13      = (10 + 1)%13 = (1%13)*10 + 1
+111%13     = (11*10 + 1)%13 = (11%13)*10 + 1
+1111%13     = (111*10 + 1)%13 = (111%13)*10 + 1
+11111%13     = (1111*10 + 1)%13 = (1111%13)*10 + 1
+111111%13     = (11111*10 + 1)%13 = (11111%13)*10 + 1
+*/
+
+
 
 #include<stdio.h>
 #include<stdlib.h>

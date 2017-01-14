@@ -45,7 +45,8 @@ int main() {
         {
             sum += v[ii];
         }
-        
+        delete p;
+        delete v;
         printf("%.2f\n", sum);
     }
     

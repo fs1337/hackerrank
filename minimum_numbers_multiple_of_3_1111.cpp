@@ -6,7 +6,7 @@ exceed the range of int, long. You cannot use any complex data structure.*/
 
 /*use two properties
 1 a%m%m = a%m
-2 a = b*c, a%m = b%m * c
+2 a = b*c, a%m = (b%m * c)%m
 */
 
 /*
